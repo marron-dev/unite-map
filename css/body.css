@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+body {
+	margin: 0;
+}
+
+#particles-js {
+	position: fixed;
+	/*描画固定*/
+	z-index: -1;
+	/*描画を一番下に*/
+	width: 100%;
+	height: 100%;
+	background-color: #0c101a;
+	/*背景色*/
+}
+
+#wrapper {
+	position: relative;
+	padding-top: 130px;
+	padding-bottom: 150px;
+	/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+	z-index: 1;
+	/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+	width: 100%;
+	height: 100%;
+}
+
+.introduction-box {
+	font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+	padding: 7px;
+	height: 100px;
+	margin: 60px auto;
+	width: 600px;
+	line-height: 20px;
+	color: #232323;
+	background: #fff8e8;
+	border-left: solid 10px #ffc06e;
+}
+
+.form-btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin: 0px auto 60px;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+	border-radius: 100vh;
+	transition: 0.5s;
+}
+
+.form-btn:hover {
+	color: #fff;
+	background: #27acd9;
+}
+
+.introduction-table {
+	font-family: 'Noto Sans JP', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	height: 30px;
+	width: 600px;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0.6em;
+	background: #e0edff;
+}
+
+.introduction-table:after {
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 30px;
+	border: 15px solid transparent;
+	border-top: 15px solid #e0edff;
+	width: 0;
+	height: 0;
+}
+
+
+
+table {
+	border-collapse: separate;
+	border-spacing: 5px;
+	width: 600px;
+	margin: 10px auto;
+	font-weight: bold;
+	font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'ＭＳ Ｐ明朝', 'MS PMincho', serif;
+}
+
+table th,
+table td {
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+table th {
+	background-color: #c79852;
+	color: white;
+	border: solid 1px #927141;
+}
+
+table td {
+	background-color: #e4d4bc;
+	border: solid 1px #af9d85;
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 400px) {
+    /* スマートフォン (縦) */
+    footer {
+        display: none;
+        height: 0;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    /* スマートフォン (横) */
+    footer {
+        display: none;
+        height: 0;
+
+    }
+}
